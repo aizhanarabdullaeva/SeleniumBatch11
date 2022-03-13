@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name ="TestNg Runner Practice">
+    <test name="Orangehrm Tests">
+        <classes>
+            <class name="com.test.orangehrm.tests.LoginTest"> </class>
+            <class name="com.test.orangehrm.tests.AdminTest"> </class>
+            <class name="com.test.orangehrm.tests.PIMTest"> </class>
+
+        </classes>
+    </test>
+<!--    <test name="Select Class Test">-->
+<!--        <classes>-->
+<!--            <class name="SelectClass.CarsPractice"> </class>-->
+<!--            <class name="SelectClass.MultiSelect"> </class>-->
+<!--        </classes>-->
+
+<!--    </test>-->
+</suite>
